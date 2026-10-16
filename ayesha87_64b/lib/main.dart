@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ayesha87_64b/home_page.dart';
+import 'package:ayesha87_64b/container_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,10 +11,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
       theme: ThemeData.light(),
       debugShowCheckedModeBanner: false,
-      home: const HomePage(), 
+      home: const ContainerPage(),
     );
   }
 }
